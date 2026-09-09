@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="shortcut icon" href="favicon2.png" type="image/x-icon">
+</head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .video-box {
+            width: 30%;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .video-box video {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        /* Tablet */
+        @media (max-width: 768px) {
+            .video-box {
+                width: 75%;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 480px) {
+            .video-box {
+                width: 100%;
+            }
+        }
+    </style>
+<body>
+    <div class="video-box">
+
+  
+
+ <video autoplay muted loop playsinline>
+    <!-- Safari Test File -->
+    <source src="Building your own trading strategy_3.mp4" type='video/mp4; codecs="hvc1"'>
+</video>
+</div>
+</body>
+</html>
